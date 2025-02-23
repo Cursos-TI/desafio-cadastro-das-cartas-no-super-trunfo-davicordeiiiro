@@ -17,6 +17,54 @@ int main() {
     // Exibição dos Dados das Cartas:
     // Sugestão: Utilize a função printf para exibir as informações das cartas cadastradas de forma clara e organizada.
     // Exiba os valores inseridos para cada atributo da cidade, um por linha.
+/*
+    char cidade[50];
+    char estado[50];
+    int codigo, populacao, pontos;
+    float area, pib;
+    printf("Digite o nome do Estado da primeira carta:\n");
+    scanf("%s", &estado);
+    printf("Digite o nome da cidade da primeira carta:\n");
+    scanf("%s", &cidade);
+    printf("Digite o número de pontos turísticos da cidade da primeira carta:\n");
+    scanf("%d", &pontos);
+    printf("Digite o código da carta da primeira carta: \n");
+    scanf("%d", &codigo);
+    printf("Digite a quantidade de habitantes da primeira carta:\n");
+    scanf("%d", &populacao);
+    printf("Digite o PIB do Estado da primeira carta:");
+    scanf("%f", &pib);
+    printf("Digite a área em M² da primeira carta:\n");
+    scanf("%f", area);
+    printf("Estado: %s \n Cidade: %s \n Populacao: %d \n Número de pontos turísticos: %d \n", estado, cidade, populacao, pontos);
+    printf("Código da carta: %d \n PIB: %f \n área: %f \n", codigo, pib, area);
+    */
+   int populacaoa01, populacaob01, pontosa01, pontosb01;
+   float area_a01, area_b01,  pib_a01, pib_b01;
 
+   printf("Digite a população de Belo horizonte-MG: \n");
+   scanf("%d", &populacaoa01);
+   printf("Digite o número de pontos turísticos de Belo horizonte-MG: \n");
+   scanf("%d", &pontosa01);
+   printf("Digite a área de Belo horizonte-MG: \n");
+   scanf("%f", &area_a01);
+   printf("Digite o PIB de Belo horizonte-MG: \n");
+   scanf("%f", &pib_a01);
+   printf("Digite a população de Goiânia-GO: \n");
+   scanf("%d", &populacaob01);
+   printf("Digite o número de pontos turísticos de Goiânia-GO: \n");
+   scanf("%d", &pontosb01);
+   printf("Digite a área de Goiânia-GO: \n");
+   scanf("%f", &area_b01);
+   printf("Digite o PIB de Goiânia-GO: \n");
+   scanf("%f", &pib_b01);
+
+   printf("Belo Horizonte-MG \n");
+   printf("código: a01 \n");
+   printf("população: %d \npontos turísticos: %d \nárea: %f \nPIB: %f \n\n", populacaoa01, pontosa01, area_a01, pib_a01);
+   printf("Goiânia-GO: \n");
+   printf("código: b01 \n");
+   printf("população: %d \npontos turísticos: %d \nárea: %f \nPIB: %f \n", populacaob01, pontosb01, area_b01, pib_b01);
+   
     return 0;
 }
